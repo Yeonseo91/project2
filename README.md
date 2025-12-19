@@ -1,4 +1,4 @@
-# 기계학습과응용 기말 project : Major Recommender System
+# 기계학습과응용 final project : Major Recommender System
 # 목차
 - [프로젝트 선정 이유](#1-프로젝트-선정-이유)
 - [코드 설명](#2-코드-설명)
