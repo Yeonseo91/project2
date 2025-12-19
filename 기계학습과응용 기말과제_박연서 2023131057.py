@@ -37,7 +37,7 @@ def print_table(df, title, w1=22, w2=20, w3=10):
         ))
     print(line)
 
-# 예,아니오 형태의 응답을 안정적으로 처리하여 오류를 방지하는 입력 함수
+# 선호도 숫자 및 예,아니오 형태의 응답을 안정적으로 처리하여 오류를 방지하는 입력 함수
 def input_int(msg, lo, hi):
     while True:
         try:
@@ -107,7 +107,7 @@ df["분류"] = df["학과"].map(분류표).fillna("기타")
     "사고력": "사고력/문제해결 선호도"
 }
 
-# 모델 준비
+# KNN 모델 초기화 및 학습
 scaler = StandardScaler()
 X = scaler.fit_transform(df[기준들].astype(float).values)
 
