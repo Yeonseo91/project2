@@ -1,4 +1,4 @@
-# 기계학습과응용_개인 project : Major recommender system
+# 기계학습과응용_기말 project : Major recommender system
 # 목차
 - [프로젝트 선정 이유](#프로젝트-선정-이유)
 - [코드 설명](#코드-설명)
